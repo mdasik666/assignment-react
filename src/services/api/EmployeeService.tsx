@@ -1,6 +1,6 @@
 import axiosInstance from "./AxiosInstance"
 
-const api = "/api/employee"
+const apiEmp = "/api/employee"
 export const getEmployee = () => {
-    return axiosInstance.get(`${api}/fetchemployees`)
+    return axiosInstance.get(`${apiEmp}/fetchemployees`)
 }
