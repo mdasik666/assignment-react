@@ -2,9 +2,11 @@ import { Component } from 'react'
 
 class Header extends Component{
     render(){
-        return (
-            <header className='d-flex flex-row justify-content-center p-3 bg-dark text-light'>
-                <h3>Assignment</h3>
+        return (            
+            <header className='row'>
+                <div className='col-12 text-center bg-dark text-light py-2'>
+                    <h3>Assignment - CRUD Operation using MERN with MySql</h3>
+                </div>
             </header>
         )
     }
